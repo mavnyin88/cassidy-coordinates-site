@@ -1,0 +1,20 @@
+{
+  "name": "cassidycoordinatessite",
+  "version": "1.0.0",
+  "description": "Cassidy Coordinates Website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "start:server": "live-server"
+  },
+  "keywords": [
+    "wedding",
+    "coordinator"
+  ],
+  "author": "Michael Avnyin",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.11.0"
+  }
+}
