@@ -1,0 +1,50 @@
+.navigation {
+  padding: 3rem 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__logo {
+    height: 8rem;
+  }
+  &__menu {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  &__contact {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  &__phone {
+    margin-left: auto;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $primary-black;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+  }
+  &__icon {
+    width: 1.3rem;
+    margin-left: 2rem;
+  }
+  &__social-icons {
+  }
+  &__list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+  }
+  &__item {
+    &:not(:last-child) {
+      margin-right: 4rem;
+    }
+  }
+  &__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: $primary-black;
+    font-size: 1rem;
+  }
+}

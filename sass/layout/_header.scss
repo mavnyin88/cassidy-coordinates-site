@@ -1,0 +1,25 @@
+.header {
+  position: relative;
+  background-color: #f6dde4;
+  height: 90vh;
+  border-radius: 3px;
+  &__hero-text {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  &__hero-diamond {
+    position: absolute;
+    width: 100%;
+    position: absolute;
+    bottom: -64px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+}
