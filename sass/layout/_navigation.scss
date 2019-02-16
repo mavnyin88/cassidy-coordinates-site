@@ -34,13 +34,17 @@
     display: flex;
     list-style-type: none;
     margin: 0;
+    margin-right: -3px;
   }
   &__item {
     &:not(:last-child) {
-      margin-right: 4rem;
+      margin-right: 5rem;
+    }
+    &::last-child {
     }
   }
   &__link {
+    font-weight: 500;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 3px;

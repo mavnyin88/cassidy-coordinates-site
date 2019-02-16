@@ -1,24 +1,37 @@
 body {
   font-family: Helvetica, sans-serif;
 }
-.heading-primary {
-  text-transform: uppercase;
-  backface-visibility: hidden;
+.heading {
+  &-primary {
+    display: inline-block;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-top: 5px solid $primary-grey;
+    border-bottom: 5px solid $primary-grey;
 
-  &--main {
-    display: block;
-    font-size: 4rem;
-    font-weight: bold;
-    letter-spacing: 1.7rem;
-    color: $primary-white;
-    margin-bottom: 1rem;
+    &--main {
+      display: block;
+      font-size: 4rem;
+      font-weight: bold;
+      letter-spacing: 1.7rem;
+      color: $primary-white;
+      margin-bottom: 1rem;
+      margin-left: 1.7rem;
+    }
+
+    &--sub {
+      color: $primary-black;
+      display: block;
+      font-size: 2.23rem;
+      letter-spacing: 1.95rem;
+      margin-left: 1.95rem;
+      font-weight: normal;
+    }
   }
 
-  &--sub {
-    color: $primary-black;
-    display: block;
-    font-size: 2.3rem;
-    font-weight: 100;
-    letter-spacing: 1.925rem;
+  &__dot {
+    font-size: 1.6rem;
   }
 }
